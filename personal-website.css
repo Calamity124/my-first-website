@@ -1,0 +1,244 @@
+body{
+    background-color:#0a0a0a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    font-family: "Inter" sans-serif;
+    font-weight: 500;
+}
+
+
+.main-container{
+  display: block;
+  gap: 20px;
+ padding: 40px 24px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.profile-picture
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.header
+{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 10px;
+  align-items: center;
+  
+}
+.profile-info
+{
+   justify-content: center;
+   flex: 1;
+}
+.profile-info h3{
+    
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+}
+.profile-info p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.function-header
+{
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    
+}
+.call-now-btn
+{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 3px;
+     transition: transform 0.2s ease, box-shadow 0.2s ease;
+     cursor: pointer;
+
+    
+}
+.send-email-btn
+{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+     transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    
+}
+.email-logo, .call-now-logo
+{
+    width: 16px;
+    height: 16px;  
+
+}
+ .location-logo
+ {
+    width: 20px;
+    height: 20px;
+ }
+ .location-container
+ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+ }
+ .profile-info h4
+ {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ .tech-stacks-item
+ {
+    height: 20px;
+   
+ }
+ .tech-stack
+ {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    
+ }
+
+ .tech-stack-container
+ {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    gap: 5px;
+    
+    
+   
+ }
+ .email-container
+ {
+   border: 1px solid black;
+   background-color: rgb(20, 18, 18) ;
+   padding-left: 10px;
+   font-size: 14px;
+   padding-top: 10px;
+   border-radius: 8px;
+   transition: background-color 0.15s, box-shadow 0.15s;
+   
+ }
+  .email-container a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  
+  }
+  
+  .social-links
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+    .social-links img
+  {
+    height: 20px;
+    width: 20px;
+  
+  }
+.logo-app
+{
+    background-color: white;
+    border-radius: 45%;
+    
+}
+footer hr{
+   border: 1px solid;
+}
+.call-now-btn:hover, .send-email-btn:hover{
+      transform: translateY(-3px);
+}
+.workspace-logo
+{
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 40% ;
+    
+  
+}
+.connect-now-part
+{
+    display: flex;
+    align-items: center;
+}
+.email-container:hover, .social-links-container:hover, .call-container:hover
+{
+    background-color:#0e1a2f;
+     box-shadow: 
+    0 0 0 1px rgba(56, 139, 253, 0.05),
+    0 8px 25px rgba(56, 139, 253, 0.05);
+    
+}
+.arrow-logo
+{
+    height: 30px;
+}
+.call-container
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   border: 1px solid black;
+   background-color: rgb(20, 18, 18) ;
+   padding-left: 10px;
+   font-size: 20px;
+   padding-top: 10px;
+   border-radius: 8px;
+   padding-bottom: 10px;
+   transition: background-color 0.15s, box-shadow 0.15s;
+   padding-right: 20px;
+   
+}
+.call-container a{
+    text-decoration: none;
+    color: white;
+}
+.about-me-card p
+{
+    font-size: 20px;
+    text-align: justify;
+}
